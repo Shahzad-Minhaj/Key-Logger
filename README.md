@@ -1,13 +1,13 @@
 ## Keyboard Event Recorder
 
-# This Python script uses the pynput library to record keyboard events. The program captures both key press and key release events, logging them to a file named log.txt. Additionally, the script includes a feature to stop recording when the 'esc' key is released.
+ This Python script uses the pynput library to record keyboard events. The program captures both key press and key release events, logging them to a file named log.txt. Additionally, the script includes a feature to stop recording when the 'esc' key is released.
 ## Prerequisites
 
-# Before running the script, make sure to install the pynput library. You can install it using the following command:
+ Before running the script, make sure to install the pynput library. You can install it using the following command:
 
-# pip install pynput
+ pip install pynput
 
-## Usage
+ Usage
 
     Run the script.
     The script will start recording keyboard events.
@@ -16,7 +16,7 @@
 
 ## Log File Format
 
-# The recorded events are saved in the log.txt file with the following format:
+ The recorded events are saved in the log.txt file with the following format:
 
 Key <key> pressed:<timestamp>
 
@@ -25,7 +25,7 @@ Key <key> pressed:<timestamp>
 
 ## How to Contribute
 
-# If you'd like to contribute to this project, follow these steps:
+ If you'd like to contribute to this project, follow these steps:
 
     Fork the repository.
     Create a new branch: git checkout -b feature/new-feature.
